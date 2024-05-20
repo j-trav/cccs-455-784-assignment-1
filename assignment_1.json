@@ -1,0 +1,772 @@
+[
+  {
+    "name": "APT38",
+    "versions": {
+      "attack": "15",
+      "navigator": "5.0.1",
+      "layer": "4.5"
+    },
+    "domain": "enterprise-attack",
+    "description": "APT38",
+    "filters": {
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Network",
+        "PRE",
+        "Containers",
+        "Office 365",
+        "SaaS",
+        "Google Workspace",
+        "IaaS",
+        "Azure AD"
+      ]
+    },
+    "sorting": 0,
+    "layout": {
+      "layout": "side",
+      "aggregateFunction": "average",
+      "showID": false,
+      "showName": true,
+      "showAggregateScores": false,
+      "countUnscored": false,
+      "expandedSubtechniques": "none"
+    },
+    "hideDisabled": false,
+    "techniques": [
+      {
+        "techniqueID": "T1592",
+        "tactic": "reconnaissance",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1129",
+        "tactic": "execution",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1106",
+        "tactic": "execution",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1190",
+        "tactic": "initial-access",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1059",
+        "tactic": "execution",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1584",
+        "tactic": "resource-development",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1586",
+        "tactic": "resource-development",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1590",
+        "tactic": "reconnaissance",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1566",
+        "tactic": "initial-access",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1559",
+        "tactic": "execution",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1587",
+        "tactic": "resource-development",
+        "score": 1,
+        "color": "#31a354",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      }
+    ],
+    "gradient": {
+      "colors": [
+        "#ff6666ff",
+        "#ffe766ff",
+        "#8ec843ff"
+      ],
+      "minValue": 0,
+      "maxValue": 100
+    },
+    "legendItems": [],
+    "metadata": [],
+    "links": [],
+    "showTacticRowBackground": false,
+    "tacticRowBackground": "#dddddd",
+    "selectTechniquesAcrossTactics": true,
+    "selectSubtechniquesWithParent": false,
+    "selectVisibleTechniques": false
+  },
+  {
+    "name": "APT41",
+    "versions": {
+      "attack": "15",
+      "navigator": "5.0.1",
+      "layer": "4.5"
+    },
+    "domain": "enterprise-attack",
+    "description": "APT41",
+    "filters": {
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Network",
+        "PRE",
+        "Containers",
+        "Office 365",
+        "SaaS",
+        "Google Workspace",
+        "IaaS",
+        "Azure AD"
+      ]
+    },
+    "sorting": 0,
+    "layout": {
+      "layout": "side",
+      "aggregateFunction": "average",
+      "showID": false,
+      "showName": true,
+      "showAggregateScores": false,
+      "countUnscored": false,
+      "expandedSubtechniques": "none"
+    },
+    "hideDisabled": false,
+    "techniques": [
+      {
+        "techniqueID": "T1592",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1133",
+        "tactic": "persistence",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1133",
+        "tactic": "initial-access",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1053",
+        "tactic": "execution",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1053",
+        "tactic": "persistence",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1053",
+        "tactic": "privilege-escalation",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1195",
+        "tactic": "initial-access",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1589",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1596",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1059",
+        "tactic": "execution",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1584",
+        "tactic": "resource-development",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1199",
+        "tactic": "initial-access",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1593",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1098",
+        "tactic": "persistence",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1098",
+        "tactic": "privilege-escalation",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1566",
+        "tactic": "initial-access",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1598",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1585",
+        "tactic": "resource-development",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1587",
+        "tactic": "resource-development",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      }
+    ],
+    "gradient": {
+      "colors": [
+        "#ff6666ff",
+        "#ffe766ff",
+        "#8ec843ff"
+      ],
+      "minValue": 0,
+      "maxValue": 100
+    },
+    "legendItems": [],
+    "metadata": [],
+    "links": [],
+    "showTacticRowBackground": false,
+    "tacticRowBackground": "#dddddd",
+    "selectTechniquesAcrossTactics": true,
+    "selectSubtechniquesWithParent": false,
+    "selectVisibleTechniques": false
+  },
+  {
+    "name": "Assignment1",
+    "versions": {
+      "attack": "15",
+      "navigator": "5.0.1",
+      "layer": "4.5"
+    },
+    "domain": "enterprise-attack",
+    "description": "",
+    "filters": {
+      "platforms": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Network",
+        "PRE",
+        "Containers",
+        "Office 365",
+        "SaaS",
+        "Google Workspace",
+        "IaaS",
+        "Azure AD"
+      ]
+    },
+    "sorting": 0,
+    "layout": {
+      "layout": "side",
+      "aggregateFunction": "average",
+      "showID": false,
+      "showName": true,
+      "showAggregateScores": false,
+      "countUnscored": false,
+      "expandedSubtechniques": "none"
+    },
+    "hideDisabled": false,
+    "techniques": [
+      {
+        "techniqueID": "T1592",
+        "tactic": "reconnaissance",
+        "score": 3,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1129",
+        "tactic": "execution",
+        "score": 1,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1133",
+        "tactic": "persistence",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1133",
+        "tactic": "initial-access",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1053",
+        "tactic": "execution",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1053",
+        "tactic": "persistence",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1053",
+        "tactic": "privilege-escalation",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1106",
+        "tactic": "execution",
+        "score": 1,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1195",
+        "tactic": "initial-access",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1190",
+        "tactic": "initial-access",
+        "score": 1,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1589",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1596",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1059",
+        "tactic": "execution",
+        "score": 3,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1584",
+        "tactic": "resource-development",
+        "score": 3,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1586",
+        "tactic": "resource-development",
+        "score": 1,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1590",
+        "tactic": "reconnaissance",
+        "score": 1,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1199",
+        "tactic": "initial-access",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1593",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1098",
+        "tactic": "persistence",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1098",
+        "tactic": "privilege-escalation",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1566",
+        "tactic": "initial-access",
+        "score": 3,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1559",
+        "tactic": "execution",
+        "score": 1,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1598",
+        "tactic": "reconnaissance",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1585",
+        "tactic": "resource-development",
+        "score": 2,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      },
+      {
+        "techniqueID": "T1587",
+        "tactic": "resource-development",
+        "score": 3,
+        "color": "",
+        "comment": "",
+        "enabled": true,
+        "metadata": [],
+        "links": [],
+        "showSubtechniques": false
+      }
+    ],
+    "gradient": {
+      "colors": [
+        "#ff6666ff",
+        "#ffe766ff",
+        "#8ec843ff"
+      ],
+      "minValue": 1,
+      "maxValue": 3
+    },
+    "legendItems": [],
+    "metadata": [],
+    "links": [],
+    "showTacticRowBackground": false,
+    "tacticRowBackground": "#dddddd",
+    "selectTechniquesAcrossTactics": true,
+    "selectSubtechniquesWithParent": false,
+    "selectVisibleTechniques": false
+  }
+]
