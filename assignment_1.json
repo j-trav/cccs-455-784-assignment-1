@@ -79,6 +79,17 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1027.002",
+			"tactic": "defense-evasion",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1027",
 			"tactic": "defense-evasion",
 			"score": 3,
@@ -104,6 +115,28 @@
 			"techniqueID": "T1033",
 			"tactic": "discovery",
 			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.004",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1036.005",
+			"tactic": "defense-evasion",
+			"score": 1,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -170,6 +203,72 @@
 			"techniqueID": "T1049",
 			"tactic": "discovery",
 			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1622",
+			"tactic": "discovery",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.003",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1559",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1129",
+			"tactic": "execution",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.003",
+			"tactic": "persistence",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1053.003",
+			"tactic": "privilege-escalation",
+			"score": 1,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -301,7 +400,7 @@
 		{
 			"techniqueID": "T1059.001",
 			"tactic": "execution",
-			"score": 2,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -313,6 +412,17 @@
 			"techniqueID": "T1059.003",
 			"tactic": "execution",
 			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1059.005",
+			"tactic": "execution",
+			"score": 1,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -343,7 +453,40 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1070.001",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1622",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1070.004",
+			"tactic": "defense-evasion",
+			"score": 3,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1070.006",
 			"tactic": "defense-evasion",
 			"score": 1,
 			"color": "",
@@ -367,7 +510,7 @@
 		{
 			"techniqueID": "T1071.001",
 			"tactic": "command-and-control",
-			"score": 2,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -673,6 +816,17 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1204.002",
+			"tactic": "execution",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1204",
 			"tactic": "execution",
 			"score": 1,
@@ -697,7 +851,7 @@
 		{
 			"techniqueID": "T1218.001",
 			"tactic": "defense-evasion",
-			"score": 2,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -708,7 +862,7 @@
 		{
 			"techniqueID": "T1218.011",
 			"tactic": "defense-evasion",
-			"score": 2,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -840,7 +994,7 @@
 		{
 			"techniqueID": "T1543.003",
 			"tactic": "persistence",
-			"score": 2,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -851,7 +1005,7 @@
 		{
 			"techniqueID": "T1543.003",
 			"tactic": "privilege-escalation",
-			"score": 2,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -893,7 +1047,73 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1561.002",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1561",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.003",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1562.004",
+			"tactic": "defense-evasion",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1565.001",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1565.002",
+			"tactic": "impact",
+			"score": 1,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1565.003",
 			"tactic": "impact",
 			"score": 1,
 			"color": "",
@@ -939,7 +1159,7 @@
 		{
 			"techniqueID": "T1569.002",
 			"tactic": "execution",
-			"score": 2,
+			"score": 3,
 			"color": "",
 			"comment": "",
 			"enabled": true,
@@ -1949,6 +2169,17 @@
 			"showSubtechniques": false
 		},
 		{
+			"techniqueID": "T1070.003",
+			"tactic": "defense-evasion",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
 			"techniqueID": "T1568",
 			"tactic": "command-and-control",
 			"score": 2,
@@ -2006,6 +2237,28 @@
 		{
 			"techniqueID": "T1542",
 			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542.003",
+			"tactic": "persistence",
+			"score": 2,
+			"color": "",
+			"comment": "",
+			"enabled": true,
+			"metadata": [],
+			"links": [],
+			"showSubtechniques": false
+		},
+		{
+			"techniqueID": "T1542.003",
+			"tactic": "defense-evasion",
 			"score": 2,
 			"color": "",
 			"comment": "",

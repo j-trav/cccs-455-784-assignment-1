@@ -77,7 +77,7 @@
     {
       "techniqueID": "T1027.002",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -117,7 +117,7 @@
     {
       "techniqueID": "T1036.004",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -127,7 +127,7 @@
     {
       "techniqueID": "T1036.005",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -195,9 +195,39 @@
       "showSubtechniques": false
     },
     {
+      "techniqueID": "T1622",
+      "tactic": "discovery",
+      "color": "#3182bd", "score": 1,
+      "comment": "",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
       "techniqueID": "T1053.003",
       "tactic": "execution",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
+      "comment": "",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
+      "techniqueID": "T1559",
+      "tactic": "execution",
+      "color": "#3182bd", "score": 1,
+      "comment": "",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
+      "techniqueID": "T1129",
+      "tactic": "execution",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -207,7 +237,7 @@
     {
       "techniqueID": "T1053.003",
       "tactic": "persistence",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -217,7 +247,7 @@
     {
       "techniqueID": "T1053.003",
       "tactic": "privilege-escalation",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -337,7 +367,7 @@
     {
       "techniqueID": "T1059.001",
       "tactic": "execution",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -357,7 +387,7 @@
     {
       "techniqueID": "T1059.005",
       "tactic": "execution",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -387,7 +417,17 @@
     {
       "techniqueID": "T1070.001",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
+      "comment": "",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
+      "techniqueID": "T1622",
+      "tactic": "defense-evasion",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -407,7 +447,7 @@
     {
       "techniqueID": "T1070.006",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -427,7 +467,7 @@
     {
       "techniqueID": "T1071.001",
       "tactic": "command-and-control",
-      "color": "#fdd0a2",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -707,7 +747,7 @@
     {
       "techniqueID": "T1204.002",
       "tactic": "execution",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -737,7 +777,7 @@
     {
       "techniqueID": "T1218.001",
       "tactic": "defense-evasion",
-      "color": "#fdd0a2",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -747,7 +787,7 @@
     {
       "techniqueID": "T1218.011",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -867,7 +907,7 @@
     {
       "techniqueID": "T1543.003",
       "tactic": "persistence",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -877,7 +917,7 @@
     {
       "techniqueID": "T1543.003",
       "tactic": "privilege-escalation",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -917,7 +957,7 @@
     {
       "techniqueID": "T1561.002",
       "tactic": "impact",
-      "color": "#fdd0a2",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -937,7 +977,7 @@
     {
       "techniqueID": "T1562.003",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -947,7 +987,7 @@
     {
       "techniqueID": "T1562.004",
       "tactic": "defense-evasion",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -957,7 +997,7 @@
     {
       "techniqueID": "T1565.001",
       "tactic": "impact",
-      "color": "#fdd0a2",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -967,7 +1007,7 @@
     {
       "techniqueID": "T1565.002",
       "tactic": "impact",
-      "color": "#fdd0a2",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -977,7 +1017,7 @@
     {
       "techniqueID": "T1565.003",
       "tactic": "impact",
-      "color": "#fdd0a2",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -1017,7 +1057,7 @@
     {
       "techniqueID": "T1569.002",
       "tactic": "execution",
-      "color": "#fdae6b",
+      "color": "#3182bd", "score": 1,
       "comment": "",
       "enabled": true,
       "metadata": [],

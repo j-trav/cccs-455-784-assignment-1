@@ -35,6 +35,26 @@
   "hideDisabled": false,
   "techniques": [
     {
+      "techniqueID": "T1559",
+      "tactic": "execution",
+      "color": "#756bb1", "score": 2,
+      "comment": "",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
+      "techniqueID": "T1129",
+      "tactic": "execution",
+      "color": "#756bb1", "score": 2,
+      "comment": "",
+      "enabled": true,
+      "metadata": [],
+      "links": [],
+      "showSubtechniques": false
+    },
+    {
       "techniqueID": "T1003.001",
       "tactic": "credential-access",
       "color": "#756bb1", "score": 2,
@@ -147,7 +167,7 @@
     {
       "techniqueID": "T1027.002",
       "tactic": "defense-evasion",
-      "color": "#9ecae1",
+      "color": "#756bb1", "score": 2,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -407,7 +427,7 @@
     {
       "techniqueID": "T1070.003",
       "tactic": "defense-evasion",
-      "color": "#9ecae1",
+      "color": "#756bb1", "score": 2,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -417,7 +437,7 @@
     {
       "techniqueID": "T1070.004",
       "tactic": "defense-evasion",
-      "color": "#9ecae1",
+      "color": "#756bb1", "score": 2,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -817,7 +837,7 @@
     {
       "techniqueID": "T1542.003",
       "tactic": "defense-evasion",
-      "color": "#9e9ac8",
+      "color": "#756bb1", "score": 2,
       "comment": "",
       "enabled": true,
       "metadata": [],
@@ -827,7 +847,7 @@
     {
       "techniqueID": "T1542.003",
       "tactic": "persistence",
-      "color": "#9e9ac8",
+      "color": "#756bb1", "score": 2,
       "comment": "",
       "enabled": true,
       "metadata": [],
